@@ -24,5 +24,16 @@ namespace Vidly.Controllers
             new Movie { Id = 2, Name = "Wall-e" }
         };
         }
+
+        public ActionResult Details(int id)
+        {
+            var movie = GetMovies().SingleOrDefault(m => m.Id == id);
+
+            if (movie == null)
+                return HttpNotFound();
+
+            return View(movie);
+        }
+
     }
 }
