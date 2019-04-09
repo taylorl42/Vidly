@@ -162,6 +162,18 @@
     <Compile Include="Migrations\201904091824199_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201904091824199_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904091907525_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201904091907525_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201904091907525_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091908093_SetNamesOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201904091908093_SetNamesOfMembershipTypes.Designer.cs">
+      <DependentUpon>201904091908093_SetNamesOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091909315_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201904091909315_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201904091909315_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -246,6 +258,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904091824199_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201904091824199_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091907525_AddNameToMembershipType.resx">
+      <DependentUpon>201904091907525_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091908093_SetNamesOfMembershipTypes.resx">
+      <DependentUpon>201904091908093_SetNamesOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091909315_AddBirthdateToCustomer.resx">
+      <DependentUpon>201904091909315_AddBirthdateToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
