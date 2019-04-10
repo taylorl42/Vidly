@@ -30,6 +30,13 @@ namespace Vidly.Controllers
             return View(customers);
         }
 
+        public ActionResult New()
+        {
+            var membershipTypes = _context.MembershipTypes.ToList();
+
+            return View();
+        }
+
         public ActionResult Details(int id)
         {
             var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
