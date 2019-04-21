@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201904171445390_MovieDatesNullable.Designer.cs">
       <DependentUpon>201904171445390_MovieDatesNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904201624037_MadeReleaseDateRequired.cs" />
+    <Compile Include="Migrations\201904201624037_MadeReleaseDateRequired.Designer.cs">
+      <DependentUpon>201904201624037_MadeReleaseDateRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -314,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904171445390_MovieDatesNullable.resx">
       <DependentUpon>201904171445390_MovieDatesNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904201624037_MadeReleaseDateRequired.resx">
+      <DependentUpon>201904201624037_MadeReleaseDateRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
